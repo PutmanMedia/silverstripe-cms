@@ -30,6 +30,7 @@ if(typeof(ss) == 'undefined' || typeof(ss.i18n) == 'undefined') {
 		'Folder.Name': 'Folder name',
 		'Tree.AddSubPage': 'Add new page here',
 		'Tree.EditPage': 'Edit',
+		'Tree.ShowAsList': 'Show children as list',
 		'CMSMain.ConfirmRestoreFromLive': "Do you really want to copy the published content to the draft site?",
 		'CMSMain.RollbackToVersion': "Do you really want to roll back to version #%s of this page?",
 		'URLSEGMENT.Edit': 'Edit',
