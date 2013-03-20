@@ -712,12 +712,12 @@ class CMSMain extends LeftAndMain implements CurrentPageIdentifier, PermissionPr
 		$gridFieldConfig = GridFieldConfig::create()->addComponents(			
 			new GridFieldSortableHeader(),
 			new GridFieldDataColumns(),
-			new GridFieldPaginator(15)
+			new GridFieldPaginator(50)
 		);
 		if($parentID){
 			$gridFieldConfig->addComponent(
 				GridFieldLevelup::create($parentID)
-					->setLinkSpec('?ParentID=%d&view=list')
+					->setLinkSpec('?P5arentID=%d&view=list')
 					->setAttributes(array('data-pjax' => 'ListViewForm,Breadcrumbs'))
 			);
 		}
